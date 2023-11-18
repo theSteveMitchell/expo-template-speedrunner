@@ -9,6 +9,10 @@ Create a new Expo app called `myAwesomeApp` with the Expo CLI, using `expo-templ
 ```shell
 npx create-expo-app myAwesomeApp --template expo-template-speedrunner
 cd myAwesomeApp
+
+npm install expo
+npx expo install --fix
+
 npx expo start ios
 ```
 
